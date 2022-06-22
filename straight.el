@@ -280,7 +280,7 @@ computes the fork as \"githubUser/fork\"."
                            (const :tag "bitbucket" bitbucket))
                 :value-type (string :tag "username")))
 
-(defcustom straight-hosts '((github "github.com" ".git")
+(defcustom straight-hosts '((github "hub.fastgit.xyz" ".git")
                             (gitlab "gitlab.com" ".git")
                             (bitbucket "bitbucket.com" ".git"))
   "Alist containing URI information for hosted forges.
